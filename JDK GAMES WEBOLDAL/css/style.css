@@ -1,0 +1,83 @@
+
+nav {
+    box-sizing: border-box;
+    border: 3px solid blue;
+    display: flex;
+    justify-content: flex-end !important;
+    margin-right: 250px;
+
+}
+.logo {
+    height: 85%;
+    margin-left: 50px;
+    margin-top: 2%;
+}
+li  {
+    box-sizing: border-box;
+    border: 3px solid blue;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%; 
+    font-size: x-large;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav.navbar li a {
+    color: white;
+    background-color: rgb(65, 59, 59);
+}
+nav.navbar li a:hover {
+    color: black;
+    background-color: rgb(65, 59, 59);
+}
+
+
+.menuSpec {
+    background-color: rgb(65, 59, 59);
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.menuSpecc {
+    background-color: rgb(65, 59, 59);
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menuHeight {
+    height: 100px;
+}
+@media (max-width: 1100px) {
+    .logo {
+        margin-right: 150px;
+        
+    }
+    .container-fluid {
+        margin-right: -150px;
+        width: 50%;
+    }
+}
+.container-fluid {
+    box-sizing: border-box;
+    border: 3px solid aqua;
+    width: 25%;
+    padding: 0;
+}
+.marginTop {
+    margin-top: 5px;
+}
+
+.sliderSpec {
+    background-color: brown;
+    height: 100%;
+} 
+
+.buttonSpec {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+#carouselExampleIndicators {
+    z-index: -1;
+}
