@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+.containerTop {
+    margin-top: 50px;
+}
+.carieerWord {
+    color: white;
+    font-size: 15pt;
+    border-top: 10px solid white;
+    width: 10%;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 75pt;
+}
+.firstP {
+    color: white;
+    font-size: 25pt;
+}
+.borderCarieers {
+    border: 5px solid white;
+}
+.marginBorder {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.benefits {
+    color: white;
+    text-align: center;
+}
+.carieerWidth {
+    width: 50%;
+}
+h3 {
+    text-align: center;
+    margin-top: 75px;
+}
+
+h3 a {
+    text-decoration: none;
+    border: 3px solid white;
+    color: white;
+    padding: 5px 10px;
+}
+
+h3 a:hover {
+    color: black;
+    background-color: white;
+}
+

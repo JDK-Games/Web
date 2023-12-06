@@ -1,0 +1,28 @@
+.card{
+    height: 100%;
+    width: 80%;
+    border-radius: 15px;
+    background-color: black;
+    border: none;
+}
+.card .gameCard img {
+    border-radius: 15px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+}
+
+.card .gameCard img:hover {
+    filter: blur(2px);
+}
+
+.col-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.col-lg-3 {
+    display: flex;
+    justify-content: center;
+}

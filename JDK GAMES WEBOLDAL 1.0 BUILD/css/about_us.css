@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+.colBorder {
+    border: 5px solid white;
+}
+.marginTop {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.marginRealTop {
+    margin-top: 30px;
+}
+
+h1 {
+    font-variant: small-caps;
+}
